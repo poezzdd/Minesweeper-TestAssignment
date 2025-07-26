@@ -27,7 +27,7 @@ namespace Minesweeper.UI.Realization
             
             _compositeDisposable.Add(
                 mineFieldController
-                    .MinesLeft
+                    .MinesLeftFromFlags
                     .Subscribe(minesLeft => _uiGameWindow.MinesLeftText.text = minesLeft.ToString()));
             
             _uiGameWindow.OnRestartButtonClickedEvent += OnRestartButtonClicked;
