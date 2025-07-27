@@ -624,7 +624,6 @@ MonoBehaviour:
   loseSmile: {fileID: 999322256}
   timerText: {fileID: 897779622}
   minesLeftText: {fileID: 1709783630}
-  gridTransform: {fileID: 0}
 --- !u!1 &593392530
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,7 +868,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You win! :)
+  m_text: You won! :)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2061,74 +2060,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140789431}
   m_CullTransparentMesh: 1
---- !u!1001 &4180477301892687476
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5114002503640895107, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.089894
-      objectReference: {fileID: 0}
-    - target: {fileID: 5114002503640895107, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.3999716
-      objectReference: {fileID: 0}
-    - target: {fileID: 5114002503640895107, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5114002503640895107, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5114002503640895107, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5114002503640895107, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5114002503640895107, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5114002503640895107, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5114002503640895107, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5114002503640895107, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8696866115150249958, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_Name
-      value: MineFieldCellView
-      objectReference: {fileID: 0}
-    - target: {fileID: 8696866115150249958, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8696866115150249958, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 65de9e237bc25ba49aeabc682b93befc, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 690951369}
-  - {fileID: 4180477301892687476}

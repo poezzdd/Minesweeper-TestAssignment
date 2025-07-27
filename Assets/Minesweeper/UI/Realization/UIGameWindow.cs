@@ -25,8 +25,6 @@ namespace Minesweeper.UI.Realization
         
         [SerializeField] private TextMeshProUGUI minesLeftText;
 
-        [SerializeField] private Transform gridTransform;
-
         public void SetWinState()
         {
             ClearStates();
