@@ -22,6 +22,8 @@ namespace Minesweeper.UI.Realization
         {
             _uiGameWindow = gameSceneData.UIGameWindow;
             _gameStarter = gameStarter;
+            
+            _uiGameWindow.WinParticleObject.SetActive(false);
 
             _compositeDisposable.Add(gameTimer.TotalSeconds.Subscribe(SetTimerText));
             
@@ -57,6 +59,8 @@ namespace Minesweeper.UI.Realization
         private void OnRestartButtonClicked()
         {
             _gameStarter.StartGame();
+            
+            _uiGameWindow.WinParticleObject.SetActive(false);
         }
 
         private void OnStartGame()
@@ -69,6 +73,7 @@ namespace Minesweeper.UI.Realization
             if (isWin)
             {
                 _uiGameWindow.SetWinState();
+                _uiGameWindow.WinParticleObject.SetActive(true);
             }
             else
             {

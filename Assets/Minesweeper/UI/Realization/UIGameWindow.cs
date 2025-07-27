@@ -11,6 +11,7 @@ namespace Minesweeper.UI.Realization
         
         public TextMeshProUGUI TimerText => timerText;
         public TextMeshProUGUI MinesLeftText => minesLeftText;
+        public GameObject WinParticleObject => winParticleObject;
         
         [SerializeField] private Button restartButton;
         
@@ -24,6 +25,8 @@ namespace Minesweeper.UI.Realization
         [SerializeField] private TextMeshProUGUI timerText;
         
         [SerializeField] private TextMeshProUGUI minesLeftText;
+        
+        [SerializeField] private GameObject winParticleObject;
 
         public void SetWinState()
         {
